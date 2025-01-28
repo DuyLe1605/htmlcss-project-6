@@ -32,8 +32,16 @@
     .menu-close svg {
         position: absolute;
         width: 22px;
-        top: 0;
-        right: 0;
+        top: 20px;
+        right: 20px;
+    }
+    #mobile-nav {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    #mobile-nav .navbar-item {
+        padding: 10px 0;
     }
     /*  */
     .header__navigation {
@@ -89,6 +97,8 @@
     }
     .hero__media {
         margin: 25px auto 0;
+        overflow: hidden;
+        align-items: center;
     }
 
     .hero__img {
@@ -96,9 +106,9 @@
         height: 355px;
     }
     .hero__decor {
-        width: 448px;
-        top: -38px;
-        left: -96px;
+        width: 414px;
+        top: -9px;
+        left: -65px;
     }
     .hero__eff {
         display: none;
